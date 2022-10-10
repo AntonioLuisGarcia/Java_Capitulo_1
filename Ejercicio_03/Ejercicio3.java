@@ -1,14 +1,14 @@
 public class Ejercicio3 {
     public static void main(String[] args) {
-    System.out.println("Computer     Ordenador");
-    System.out.println("Cat          Gato");
-    System.out.println("Dog          Perro");
-    System.out.println("book         libro");
-    System.out.println("light        luz");
-    System.out.println("green        verde");
-    System.out.println("pyramid      piramide");
-    System.out.println("nature       naturaleza");
-    System.out.println("machine      maquina");
-    System.out.println("student      estudiante");
+    System.out.printf("%-10s %s\n","Computer", "Ordenador");
+    System.out.printf("%-10s %s\n","Cat", "Gato");
+    System.out.printf("%-10s %s\n","Dog", "Perro");
+    System.out.printf("%-10s %s\n","Book", "Libro");
+    System.out.printf("%-10s %s\n","Light", "Luz");
+    System.out.printf("%-10s %s\n","Green", "Verde");
+    System.out.printf("%-10s %s\n","Machine", "Maquina");
+    System.out.printf("%-10s %s\n","Nature", "Naturaleza");
+    System.out.printf("%-10s %s\n","Student", "Estudiante");
+    System.out.printf("%-10s %s\n","Pyramid", "Piramide");
     }
     }
