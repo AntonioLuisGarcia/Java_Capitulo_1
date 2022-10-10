@@ -2,22 +2,22 @@ public class Ejercicio5 {
     public static void main(String[] args) {
         System.out.println("Lunes           Martes         Miercoles      Jueves         Viernes");
         System.out.println("-----------------------------------------------------------------------");
-        System.out.printf("%-12s    %-12s   %-12s   %-12s   %-15s","\033[32m Programacion","\033[34m Sistemas","\033[36m Entornos","\033[32m Programacion","\033[35m FOL");
+        System.out.printf("%-12s    %-17s   %-17s   %-17s   %-15s","\033[32mProgramacion","\033[34mSistemas","\033[30mEntornos","\033[32mProgramacion","\033[35mFOL");
         System.out.println("");
 
-        System.out.printf("%-12s    %-12s   %-12s   %-12s   %-15s","\033[32m Programacion","\033[34m Sistemas","\033[36m Entornos","\033[32m Programacion","\033[35m FOL");
+        System.out.printf("%-12s    %-17s   %-17s   %-17s   %-15s","\033[32mProgramacion","\033[34mSistemas","\033[30mEntornos","\033[32mProgramacion","\033[35mFOL");
         System.out.println("");
 
-        System.out.printf("%-12s    %-12s   %-12s   %-12s   %-15s","\033[33m Lenguajes","\033[34m Sistemas","\033[32m Programacion","\033[33m Lenguajes","\033[35m FOL");
+        System.out.printf("%-17s    %-17s   %-17s   %-17s   %-15s","\033[33mLenguajes","\033[34mSistemas","\033[32mProgramacion","\033[33mLenguajes","\033[35mFOL");
         System.out.println("");
 
-        System.out.printf("%-12s    %-12s   %-12s   %-12s   %-15s","\033[33m Lenguajes","\033[32m Programacion","\033[32m Programacion","\033[33m Lenguajes","\033[34m Sistemas");
+        System.out.printf("%-17s    %-17s   %-17s   %-17s   %-15s","\033[33mLenguajes","\033[32mProgramacion","\033[32mProgramacion","\033[33mLenguajes","\033[34mSistemas");
         System.out.println("");
 
-        System.out.printf("%-12s    %-12s   %-12s   %-12s   %-15s","\033[31m BD","\033[32m Programacion","\033[31m BD","\033[31m BD","\033[34m Sistemas");
+        System.out.printf("%-17s    %-17s   %-17s   %-17s   %-15s","\033[31mBD","\033[32mProgramacion","\033[31mBD","\033[31mBD","\033[34mSistemas");
         System.out.println("");
 
-        System.out.printf("%-12s    %-12s   %-12s   %-12s   %-15s","\033[31m BD","\033[36m Entornos","\033[31m BD","\033[31m BD","\033[34m Sistemas");
+        System.out.printf("%-17s    %-17s   %-17s   %-17s   %-15s","\033[31mBD","\033[30mEntornos","\033[31mBD","\033[31mBD","\033[34mSistemas");
 
     }
     }
