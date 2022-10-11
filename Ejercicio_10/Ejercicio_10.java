@@ -1,9 +1,9 @@
 public class Ejercicio_10 {
     public static void main(String[] args) {
     
-        String rojo = "\033[32m";
+        String lila = "\033[31m";
         
-    System.out.println(rojo);
+    System.out.println(lila);
     System.out.println("       ▄                           Bienvenidos          ");
     System.out.println("     ▄ ▄ ▄         ▄ ▄ ▄ ▄         a          ");
     System.out.println("   ▄ ▄ ▄ ▄ ▄        ▄ ▄ ▄          mi          ");
